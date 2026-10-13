@@ -20,7 +20,7 @@ services:
       - key: JWT_SECRET
         generateValue: true
       - key: FRONTEND_URL
-        value: https://budget-management-ui.onrender.com
+        value: https://frontend-omega-bice-23.vercel.app
 
   - type: web
     name: budget-management-ui
