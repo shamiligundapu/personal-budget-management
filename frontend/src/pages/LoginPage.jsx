@@ -20,7 +20,7 @@ export default function LoginPage() {
       login(response.data.token, response.data.user)
       navigate('/dashboard')
     } catch (err) {
-      setError(err.response?.data?.message || 'Login failed. Please check your credentials.')
+      setError(err.response?.data?.message || err.message || 'Login failed. Please check your credentials.')
     } finally {
       setLoading(false)
     }

@@ -26,3 +26,9 @@ bin/
 /nbdist/
 /.built-jar-path
 *.log
+
+### Environment and DB ###
+.env
+.env.*
+*.mv.db
+*.trace.db
